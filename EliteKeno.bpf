@@ -1,0 +1,9 @@
+USEUNIT(".\ddutil.cpp");
+USEUNIT(".\DecodePosition.cpp");
+USEUNIT(".\DrawingTasks.cpp");
+USEUNIT(".\dxutil.cpp");
+USEUNIT(".\EliteKeno.cpp");
+USERC(".\EliteKeno.rc");
+USEFILE("vctobpr.log");
+
+#define WinMain

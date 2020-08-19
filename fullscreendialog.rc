@@ -1,0 +1,184 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include <windows.h>
+#include <afxres.h>
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MAIN                ICON    DISCARDABLE     "DirectX.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include <windows.h>\r\n"
+    "#include <afxres.h>\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAIN_ACCEL ACCELERATORS DISCARDABLE 
+BEGIN
+    "0",            IDF_KEY_0,              VIRTKEY, NOINVERT
+    "1",            IDF_KEY_1,              VIRTKEY, NOINVERT
+    "2",            IDF_KEY_2,              VIRTKEY, NOINVERT
+    "3",            IDF_KEY_3,              VIRTKEY, NOINVERT
+    "4",            IDF_KEY_4,              VIRTKEY, NOINVERT
+    "5",            IDF_KEY_5,              VIRTKEY, NOINVERT
+    "6",            IDF_KEY_6,              VIRTKEY, NOINVERT
+    "7",            IDF_KEY_7,              VIRTKEY, NOINVERT
+    "8",            IDF_KEY_8,              VIRTKEY, NOINVERT
+    "9",            IDF_KEY_9,              VIRTKEY, NOINVERT
+    "A",            IDF_KEY_A,              VIRTKEY, NOINVERT
+    "B",            IDF_KEY_B,              VIRTKEY, NOINVERT
+    "C",            IDF_KEY_C,              VIRTKEY, NOINVERT
+    "D",            IDF_KEY_D,              VIRTKEY, NOINVERT
+    "E",            IDF_KEY_E,              VIRTKEY, NOINVERT
+    "F",            IDF_KEY_F,              VIRTKEY, NOINVERT
+    "G",            IDF_KEY_G,              VIRTKEY, NOINVERT
+    "H",            IDF_KEY_H,              VIRTKEY, NOINVERT
+    "I",            IDF_KEY_I,              VIRTKEY, NOINVERT
+    "J",            IDF_KEY_J,              VIRTKEY, NOINVERT
+    "K",            IDF_KEY_K,              VIRTKEY, NOINVERT
+    "L",            IDF_KEY_L,              VIRTKEY, NOINVERT
+    "M",            IDF_KEY_M,              VIRTKEY, NOINVERT
+    "N",            IDF_KEY_N,              VIRTKEY, NOINVERT
+    "O",            IDF_KEY_O,              VIRTKEY, NOINVERT
+    "P",            IDF_KEY_P,              VIRTKEY, NOINVERT
+    "Q",            IDF_KEY_Q,              VIRTKEY, NOINVERT
+    "R",            IDF_KEY_R,              VIRTKEY, NOINVERT
+    "S",            IDF_KEY_S,              VIRTKEY, NOINVERT
+    "T",            IDF_KEY_T,              VIRTKEY, NOINVERT
+    "U",            IDF_KEY_U,              VIRTKEY, NOINVERT
+    "V",            IDF_KEY_V,              VIRTKEY, NOINVERT
+    VK_ESCAPE,      IDM_SHOW_DIALOG,        VIRTKEY, NOINVERT
+    VK_F1,          IDF_KEY_F1,             VIRTKEY, NOINVERT
+    VK_F10,         IDF_KEY_F10,            VIRTKEY, NOINVERT
+    VK_F11,         IDF_KEY_F11,            VIRTKEY, NOINVERT
+    VK_F12,         IDM_EXIT,               VIRTKEY, NOINVERT
+    VK_F2,          IDF_KEY_F2,             VIRTKEY, NOINVERT
+    VK_F3,          IDF_KEY_F3,             VIRTKEY, NOINVERT
+    VK_F4,          IDF_KEY_F4,             VIRTKEY, NOINVERT
+    VK_F5,          IDF_KEY_F5,             VIRTKEY, NOINVERT
+    VK_F6,          IDF_KEY_F6,             VIRTKEY, NOINVERT
+    VK_F7,          IDF_KEY_F7,             VIRTKEY, NOINVERT
+    VK_F8,          IDF_KEY_F8,             VIRTKEY, NOINVERT
+    VK_F9,          IDF_KEY_F9,             VIRTKEY, NOINVERT
+    "W",            IDF_KEY_W,              VIRTKEY, NOINVERT
+    "X",            IDF_KEY_X,              VIRTKEY, NOINVERT
+    "X",            IDM_SHOW_DIALOG,        VIRTKEY, ALT, NOINVERT
+    "Y",            IDF_KEY_Y,              VIRTKEY, NOINVERT
+    "Z",            IDF_KEY_Z,              VIRTKEY, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_DIRECTX             BITMAP  DISCARDABLE     "directx.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_EXIT_PERMISSION DIALOG DISCARDABLE  0, 0, 336, 150
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Manufacturer's Exit to Operating System Permission"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,110,129,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,176,129,50,14
+    LTEXT           "The manufacturer of this product has supplied a backdoor exit to the operating system. Only duly authorized persons my use this exit. All attempts to gain operating system access without proper permission will be reported to the local gaming authority.",
+                    IDC_STATIC,18,13,302,43
+    EDITTEXT        IDC_EDIT_1ST_CHALLENGE_RESPONCE,159,66,155,14,
+                    ES_AUTOHSCROLL
+    LTEXT           "MANFACTURER'S FIRST CHALLENGE:",IDC_STATIC,25,69,130,8
+    LTEXT           "MANFACTURER'S SECOND CHALLENGE:",IDC_STATIC,15,88,140,8
+    EDITTEXT        IDC_EDIT_2ND_CHALLENGE_RESPONCE,159,85,155,14,
+                    ES_AUTOHSCROLL
+    LTEXT           "MANFACTURER'S ACCESS PASSWORD:",IDC_STATIC,17,107,138,8
+    EDITTEXT        IDC_EDIT_PASSWORD_RESPONCE,159,104,155,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG_EXIT_PERMISSION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 329
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 143
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

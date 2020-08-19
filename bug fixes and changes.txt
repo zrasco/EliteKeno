@@ -1,0 +1,17 @@
+Elite Keno bug fixes and/or changes to program:
+
+3/19/03:
+1) Fixed bug in which bets were not recalculated when "cancel" button was hit.
+2) Fixed all bugs with the bet amounts changing sparatically.
+3) Fixed the bet buttons to allow single increments of a specific bet amount.
+4) Run game/Cash out buttons can now no longer be clicked if they are not showing.
+5) Random numbers are now completley random.
+6) POW "NO WINNING CATCHES" message in way tickets was being misplaced 20 pixels, now fixed.
+7) "BACK" button on left POW tickets was being drawn 10 pixels too far on a mouse click, to the right; also now fixed.
+
+3/27/03:
+8) In straight and way ticket entry, you can now no longer play 0 spots with success, instead "Number of spots is not valid" will show up.
+9) Bug where you cant change the bets in 190 house tickets fixed.
+10) In the way ticket entry, selecting "GROUP IT" will now flash the affected numbers inside of the boxes.
+11) Made a number of #defines in the main header file which control the following options so far: a) Way ticket blink pre-delay(in ms), b) Way ticket blink delay(in ms), c) Ball drop advance(In pixels), d) Ball drop delay/pause(in ms), e) Number of bet additions to be made. More options will be added as needed.
+12) Clicking the keno star will no longer cause the dialog to pop up, for now.

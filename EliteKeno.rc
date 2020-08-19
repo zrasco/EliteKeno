@@ -1,0 +1,258 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include <windows.h>
+#include <winres.h>
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MAIN                ICON    DISCARDABLE     "DirectX.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include <windows.h>\r\n"
+    "#include <winres.h>\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAIN_ACCEL ACCELERATORS DISCARDABLE 
+BEGIN
+    "0",            IDF_KEY_0,              VIRTKEY, NOINVERT
+    "0",            IDF_KEY_A0,             VIRTKEY, ALT, NOINVERT
+    "1",            IDF_KEY_1,              VIRTKEY, NOINVERT
+    "1",            IDM_MODE_PAYTABLE1,     VIRTKEY, CONTROL, NOINVERT
+    "1",            IDF_KEY_A1,             VIRTKEY, ALT, NOINVERT
+    "2",            IDF_KEY_2,              VIRTKEY, NOINVERT
+    "2",            IDM_MODE_PAYTABLE2,     VIRTKEY, CONTROL, NOINVERT
+    "2",            IDF_KEY_A2,             VIRTKEY, ALT, NOINVERT
+    "3",            IDF_KEY_3,              VIRTKEY, NOINVERT
+    "3",            IDF_KEY_A3,             VIRTKEY, ALT, NOINVERT
+    "4",            IDF_KEY_4,              VIRTKEY, NOINVERT
+    "4",            IDF_KEY_A4,             VIRTKEY, ALT, NOINVERT
+    "5",            IDF_KEY_5,              VIRTKEY, NOINVERT
+    "5",            IDF_KEY_A5,             VIRTKEY, ALT, NOINVERT
+    "6",            IDF_KEY_6,              VIRTKEY, NOINVERT
+    "6",            IDF_KEY_A6,             VIRTKEY, ALT, NOINVERT
+    "7",            IDF_KEY_7,              VIRTKEY, NOINVERT
+    "7",            IDF_KEY_A7,             VIRTKEY, ALT, NOINVERT
+    "8",            IDF_KEY_8,              VIRTKEY, NOINVERT
+    "8",            IDF_KEY_A8,             VIRTKEY, ALT, NOINVERT
+    "9",            IDF_KEY_9,              VIRTKEY, NOINVERT
+    "9",            IDF_KEY_A9,             VIRTKEY, ALT, NOINVERT
+    "A",            IDF_KEY_A,              VIRTKEY, NOINVERT
+    "A",            IDM_MODE_ATTRACT,       VIRTKEY, CONTROL, NOINVERT
+    "B",            IDF_KEY_B,              VIRTKEY, NOINVERT
+    "B",            IDM_MODE_BIGTICKET,     VIRTKEY, CONTROL, NOINVERT
+    "C",            IDF_KEY_C,              VIRTKEY, NOINVERT
+    "D",            IDF_KEY_D,              VIRTKEY, NOINVERT
+    "E",            IDF_KEY_E,              VIRTKEY, NOINVERT
+    "E",            IDM_MODE_HSENTRY,       VIRTKEY, CONTROL, NOINVERT
+    "F",            IDF_KEY_F,              VIRTKEY, NOINVERT
+    "G",            IDF_KEY_G,              VIRTKEY, NOINVERT
+    "H",            IDF_KEY_H,              VIRTKEY, NOINVERT
+    "H",            IDM_MODE_HELPSCREEN,    VIRTKEY, CONTROL, NOINVERT
+    "H",            IDM_MODE_HOUSETICKET,   VIRTKEY, CONTROL, ALT, NOINVERT
+    "I",            IDF_KEY_I,              VIRTKEY, NOINVERT
+    "I",            IDM_MODE_IDLE,          VIRTKEY, CONTROL, NOINVERT
+    "J",            IDF_KEY_J,              VIRTKEY, NOINVERT
+    "K",            IDF_KEY_K,              VIRTKEY, NOINVERT
+    "L",            IDF_KEY_L,              VIRTKEY, NOINVERT
+    "M",            IDF_KEY_M,              VIRTKEY, NOINVERT
+    "N",            IDF_KEY_N,              VIRTKEY, NOINVERT
+    "O",            IDF_KEY_O,              VIRTKEY, NOINVERT
+    "P",            IDF_KEY_P,              VIRTKEY, NOINVERT
+    "P",            IDM_MODE_PROOFWIN,      VIRTKEY, CONTROL, NOINVERT
+    "P",            IDM_MODE_WAYPLAYIT,     VIRTKEY, CONTROL, ALT, NOINVERT
+    "Q",            IDF_KEY_Q,              VIRTKEY, NOINVERT
+    "Q",            IDM_MODE_QUICKPICK,     VIRTKEY, CONTROL, NOINVERT
+    "Q",            IDM_MODE_QPENTRY,       VIRTKEY, CONTROL, ALT, NOINVERT
+    "R",            IDF_KEY_R,              VIRTKEY, NOINVERT
+    "R",            IDM_MODE_STRAIGHT,      VIRTKEY, CONTROL, NOINVERT
+    "S",            IDF_KEY_S,              VIRTKEY, NOINVERT
+    "S",            IDM_MODE_SPECIALS,      VIRTKEY, CONTROL, NOINVERT
+    "S",            IDM_SHOW_DIALOG,        VIRTKEY, ALT, NOINVERT
+    "S",            IDM_MODE_SPENTRY,       VIRTKEY, CONTROL, ALT, NOINVERT
+    "T",            IDF_KEY_T,              VIRTKEY, NOINVERT
+    "U",            IDF_KEY_U,              VIRTKEY, NOINVERT
+    "V",            IDF_KEY_V,              VIRTKEY, NOINVERT
+    "V",            IDM_MODE_VTENTRY,       VIRTKEY, CONTROL, NOINVERT
+    VK_ESCAPE,      IDM_EXIT,               VIRTKEY, NOINVERT
+    VK_F1,          IDF_KEY_F1,             VIRTKEY, NOINVERT
+    VK_F10,         IDF_KEY_F10,            VIRTKEY, NOINVERT
+    VK_F11,         IDF_KEY_F11,            VIRTKEY, NOINVERT
+    VK_F12,         IDF_KEY_F12,            VIRTKEY, NOINVERT
+    VK_F2,          IDF_KEY_F2,             VIRTKEY, NOINVERT
+    VK_F3,          IDF_KEY_F3,             VIRTKEY, NOINVERT
+    VK_F4,          IDF_KEY_F4,             VIRTKEY, NOINVERT
+    VK_F5,          IDF_KEY_F5,             VIRTKEY, NOINVERT
+    VK_F6,          IDF_KEY_F6,             VIRTKEY, NOINVERT
+    VK_F7,          IDF_KEY_F7,             VIRTKEY, NOINVERT
+    VK_F8,          IDF_KEY_F8,             VIRTKEY, NOINVERT
+    VK_F9,          IDF_KEY_F9,             VIRTKEY, NOINVERT
+    "W",            IDF_KEY_W,              VIRTKEY, NOINVERT
+    "W",            IDM_MODE_WAYTICKET,     VIRTKEY, CONTROL, NOINVERT
+    "W",            IDM_MODE_WAYENTRY,      VIRTKEY, CONTROL, ALT, NOINVERT
+    "X",            IDF_KEY_X,              VIRTKEY, NOINVERT
+    "X",            IDM_EXIT,               VIRTKEY, ALT, NOINVERT
+    "Y",            IDF_KEY_Y,              VIRTKEY, NOINVERT
+    "Z",            IDF_KEY_Z,              VIRTKEY, NOINVERT
+    "Z",            IDM_MODE_HZENTRY,       VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_DIRECTX             BITMAP  DISCARDABLE     "directx.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_EXIT_PERMISSION DIALOG DISCARDABLE  0, 0, 420, 279
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Manufacturer's Exit to Operating System Permission"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    EDITTEXT        IDC_EDIT_1ST_CHALLENGE_RESPONCE,159,37,155,14,
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_2ND_CHALLENGE_RESPONCE,159,56,155,14,
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PASSWORD_RESPONCE,159,75,155,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    PUSHBUTTON      "Accept Challege",IDC_AC_BUTTON1,319,36,80,15
+    PUSHBUTTON      "Accept Challege",IDC_AC_BUTTON2,319,55,80,15
+    PUSHBUTTON      "Accept Password",IDC_AP_BUTTON1,319,74,80,15
+    DEFPUSHBUTTON   "OK",IDOK,21,236,71,29
+    PUSHBUTTON      "Cancel",IDCANCEL,326,236,71,29
+    PUSHBUTTON      "1",IDC_BTN1,21,103,34,29
+    PUSHBUTTON      "2",IDC_BTN2,59,103,34,29
+    PUSHBUTTON      "3",IDC_BTN3,97,103,34,29
+    PUSHBUTTON      "4",IDC_BTN4,135,103,34,29
+    PUSHBUTTON      "5",IDC_BTN5,173,103,34,29
+    PUSHBUTTON      "6",IDC_BTN6,211,103,34,29
+    PUSHBUTTON      "7",IDC_BTN7,249,103,34,29
+    PUSHBUTTON      "8",IDC_BTN8,287,103,34,29
+    PUSHBUTTON      "9",IDC_BTN9,325,103,34,29
+    PUSHBUTTON      "0",IDC_BTN0,363,103,34,29
+    PUSHBUTTON      "Q",IDC_BTNQ,21,136,34,29
+    PUSHBUTTON      "W",IDC_BTNW,59,136,34,29
+    PUSHBUTTON      "E",IDC_BTNE,97,136,34,29
+    PUSHBUTTON      "R",IDC_BTNR,135,136,34,29
+    PUSHBUTTON      "T",IDC_BTNT,173,136,34,29
+    PUSHBUTTON      "Y",IDC_BTNY,211,136,34,29
+    PUSHBUTTON      "U",IDC_BTNU,249,136,34,29
+    PUSHBUTTON      "I",IDC_BTNI,287,136,34,29
+    PUSHBUTTON      "O",IDC_BTNO,325,136,34,29
+    PUSHBUTTON      "P",IDC_BTNP,363,136,34,29
+    PUSHBUTTON      "A",IDC_BTNA,21,169,34,29
+    PUSHBUTTON      "S",IDC_BTNS,59,169,34,29
+    PUSHBUTTON      "D",IDC_BTND,97,169,34,29
+    PUSHBUTTON      "F",IDC_BTNF,135,169,34,29
+    PUSHBUTTON      "G",IDC_BTNG,173,169,34,29
+    PUSHBUTTON      "H",IDC_BTNH,211,169,34,29
+    PUSHBUTTON      "J",IDC_BTNJ,249,169,34,29
+    PUSHBUTTON      "K",IDC_BTNK,287,169,34,29
+    PUSHBUTTON      "L",IDC_BTNL,325,169,34,29
+    PUSHBUTTON      "@",IDC_BTN10,363,169,34,29
+    PUSHBUTTON      "Z",IDC_BTNZ,21,203,34,29
+    PUSHBUTTON      "X",IDC_BTNX,59,203,34,29
+    PUSHBUTTON      "C",IDC_BTNC,97,203,34,29
+    PUSHBUTTON      "V",IDC_BTNV,135,203,34,29
+    PUSHBUTTON      "B",IDC_BTNB,173,203,34,29
+    PUSHBUTTON      "N",IDC_BTNN,211,203,34,29
+    PUSHBUTTON      "M",IDC_BTNM,249,203,34,29
+    PUSHBUTTON      "I",IDC_BTNI2,287,203,34,29
+    PUSHBUTTON      ".",IDC_BTN11,325,203,34,29
+    PUSHBUTTON      "*",IDC_BTN12,363,203,34,29
+    PUSHBUTTON      "SPACE",IDC_BTN_SPACE,97,236,224,29
+    LTEXT           "The manufacturer of this product has supplied a backdoor exit to the operating system. Only duly authorized persons my use this exit. All attempts to gain operating system access without proper permission will be reported to the authorities.",
+                    IDC_STATIC,18,13,384,18
+    LTEXT           "MANFACTURER'S FIRST CHALLENGE:",IDC_STATIC,25,40,130,8
+    LTEXT           "MANFACTURER'S SECOND CHALLENGE:",IDC_STATIC,15,59,140,8
+    LTEXT           "MANFACTURER'S ACCESS PASSWORD:",IDC_STATIC,17,78,138,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG_EXIT_PERMISSION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 413
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 272
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
